@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hero gradient background */
+.hero-gradient {
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background-image: url("/assets/images/homeBackground.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Glassmorphism effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Floating animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Gradient button */
+.gradient-btn {
+  background: linear-gradient(45deg, #ff6b6b, #ffa500);
+  transition: all 0.3s ease;
+}
+
+.gradient-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
+}
+
+/* Card hover effects */
+.feature-card:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+/* Navigation styles */
+.navbar-custom {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #764ba2;
+}
