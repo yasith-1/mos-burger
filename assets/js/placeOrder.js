@@ -374,6 +374,55 @@ let itemArr = [
     }
 ];
 
+function locadAllItems() {
+    const itemCards = document.getElementById('itemCards');
+    let setBody = "";
+
+    itemArr.forEach(item => {
+        const discountedPrice = item.price - (item.price * item.discount / 100);
+
+        setBody += `
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card item-card border-0 shadow rounded-4 h-100">
+                            <div class="position-relative">
+                                <img src="${item.image}" class="card-img-top rounded-top-4" alt="${item.itemNAme}" style="height: 200px; object-fit: cover;">
+                                ${item.discount > 0 ? `
+                                    <span class="position-absolute top-0 end-0 discount-badge text-white px-3 py-1 rounded-pill m-2 small fw-bold">
+                                        ${item.discount}% OFF
+                                    </span>
+                                ` : ''}
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold text-dark mb-2">${item.itemNAme}</h5>
+                                <p class="text-muted small mb-3">${item.itemCode}</p>
+                                
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div>
+                                        ${item.discount > 0 ? `
+                                            <span class="text-decoration-line-through text-muted small">LKR ${item.price.toFixed(2)}</span><br>
+                                            <span class="text-success fw-bold">LKR ${discountedPrice.toFixed(2)}</span>
+                                        ` : `
+                                            <span class="fw-bold text-primary">LKR ${item.price.toFixed(2)}</span>
+                                        `}
+                                    </div>
+                                    <span class="price-badge text-white px-3 py-1 rounded-pill small fw-bold">
+                                        ${item.category}
+                                    </span>
+                                </div>
+                                
+                                <button onclick="addToCart('${item.itemCode}')" 
+                                    class="add-to-cart-btn btn text-white w-100 py-2 rounded-3 fw-semibold">
+                                    <i class="bi bi-cart-plus me-2"></i>Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+    });
+
+    itemCards.innerHTML = setBody;
+}
+
 // Cart array
 let cartArr = [];
 let totalPrice = 0;
