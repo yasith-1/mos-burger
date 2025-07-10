@@ -10,7 +10,7 @@ let itemArr = [
         price: 1500.00,
         discount: 15,
         image: "/assets/images/burger/Burger - 1.jpg",
-        quantity:16
+        quantity: 16
     },
     {
         itemCode: "B1002",
@@ -18,7 +18,7 @@ let itemArr = [
         price: 1600.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 2.jpg",
-        quantity:5
+        quantity: 5
     },
     {
         itemCode: "B1003",
@@ -26,7 +26,7 @@ let itemArr = [
         price: 1400.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 3.jpg",
-        quantity:10
+        quantity: 10
     },
     {
         itemCode: "B1004",
@@ -34,7 +34,7 @@ let itemArr = [
         price: 800.00,
         discount: 20,
         image: "/assets/images/burger/Burger - 4.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1005",
@@ -42,15 +42,15 @@ let itemArr = [
         price: 1000.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 5.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1006",
         itemNAme: "Cheese Burger (Large)",
         price: 750.00,
         discount: 0,
-        image:"/assets/images/burger/Burger - 6.jpg",
-        quantity:9
+        image: "/assets/images/burger/Burger - 6.jpg",
+        quantity: 9
     },
     {
         itemCode: "B1007",
@@ -58,7 +58,7 @@ let itemArr = [
         price: 600.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 7.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1008",
@@ -66,7 +66,7 @@ let itemArr = [
         price: 650.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 8.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1009",
@@ -74,7 +74,7 @@ let itemArr = [
         price: 800.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 9.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1010",
@@ -82,7 +82,7 @@ let itemArr = [
         price: 1800.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 10.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1011",
@@ -90,7 +90,7 @@ let itemArr = [
         price: 1250.00,
         discount: 20,
         image: "/assets/images/burger/Burger - 11.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1012",
@@ -98,7 +98,7 @@ let itemArr = [
         price: 1200.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 12.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1013",
@@ -106,7 +106,7 @@ let itemArr = [
         price: 1600.00,
         discount: 10,
         image: "/assets/images/burger/Burger - 13.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1014",
@@ -114,7 +114,7 @@ let itemArr = [
         price: 900.00,
         discount: 0,
         image: "/assets/images/burger/Burger - 14.jpg",
-        quantity:9
+        quantity: 9
     },
     // Submarines
     {
@@ -123,7 +123,7 @@ let itemArr = [
         price: 2000.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 1.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1016",
@@ -131,7 +131,7 @@ let itemArr = [
         price: 1500.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 2.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1017",
@@ -139,7 +139,7 @@ let itemArr = [
         price: 1800.00,
         discount: 3,
         image: "/assets/images/submarine/Submarine - 3.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1018",
@@ -147,7 +147,7 @@ let itemArr = [
         price: 1400.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 4.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1019",
@@ -155,7 +155,7 @@ let itemArr = [
         price: 2300.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 5.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1020",
@@ -163,7 +163,7 @@ let itemArr = [
         price: 2200.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 6.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1021",
@@ -171,15 +171,15 @@ let itemArr = [
         price: 1900.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 7.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1022",
         itemNAme: "Special Horgie Submarine",
         price: 2800.00,
         discount: 0,
-        image:"/assets/images/submarine/Submarine - 8.jpg",
-        quantity:9
+        image: "/assets/images/submarine/Submarine - 8.jpg",
+        quantity: 9
     },
     {
         itemCode: "B1023",
@@ -187,7 +187,7 @@ let itemArr = [
         price: 3000.00,
         discount: 0,
         image: "/assets/images/submarine/Submarine - 9.jpg",
-        quantity:9
+        quantity: 9
     },
     // Fries
     {
@@ -196,7 +196,7 @@ let itemArr = [
         price: 1200.00,
         discount: 0,
         image: "/assets/images/Fries/Fries - 1.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1025",
@@ -204,7 +204,7 @@ let itemArr = [
         price: 600.00,
         discount: 0,
         image: "/assets/images/Fries/Fries - 2.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1026",
@@ -212,7 +212,7 @@ let itemArr = [
         price: 800.00,
         discount: 0,
         image: "/assets/images/Fries/Fries - 3.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1027",
@@ -220,7 +220,7 @@ let itemArr = [
         price: 650.00,
         discount: 0,
         image: "/assets/images/Fries/Fries - 4.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1028",
@@ -228,7 +228,7 @@ let itemArr = [
         price: 450.00,
         discount: 0,
         image: "/assets/images/Fries/Fries - 5.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1029",
@@ -236,7 +236,7 @@ let itemArr = [
         price: 600.00,
         discount: 0,
         image: "/assets/images/Fries/Fries - 6.jpg",
-        quantity:9
+        quantity: 9
     },
     // Pasta
     {
@@ -245,7 +245,7 @@ let itemArr = [
         price: 1600.00,
         discount: 15,
         image: "/assets/images/Pasta/pasta - 1.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1031",
@@ -253,7 +253,7 @@ let itemArr = [
         price: 1700.00,
         discount: 0,
         image: "/assets/images/Pasta/pasta - 2.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1032",
@@ -261,7 +261,7 @@ let itemArr = [
         price: 2900.00,
         discount: 10,
         image: "/assets/images/Pasta/pasta - 3.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1033",
@@ -269,7 +269,7 @@ let itemArr = [
         price: 2000.00,
         discount: 0,
         image: "/assets/images/Pasta/pasta - 4.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1034",
@@ -277,7 +277,7 @@ let itemArr = [
         price: 1950.00,
         discount: 0,
         image: "/assets/images/Pasta/pasta - 5.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1035",
@@ -285,7 +285,7 @@ let itemArr = [
         price: 2400.00,
         discount: 1,
         image: "/assets/images/Pasta/pasta - 6.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1036",
@@ -293,7 +293,7 @@ let itemArr = [
         price: 2000.00,
         discount: 1,
         image: "/assets/images/Pasta/pasta - 7.jpg",
-        quantity:9
+        quantity: 9
     },
     // Chicken
     {
@@ -302,7 +302,7 @@ let itemArr = [
         price: 1200.00,
         discount: 0,
         image: "/assets/images/Chicken/chiken - 1.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1038",
@@ -310,7 +310,7 @@ let itemArr = [
         price: 2300.00,
         discount: 10,
         image: "/assets/images/Chicken/chiken - 2.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1039",
@@ -318,7 +318,7 @@ let itemArr = [
         price: 3100.00,
         discount: 5,
         image: "/assets/images/Chicken/chiken - 3.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1040",
@@ -326,7 +326,7 @@ let itemArr = [
         price: 2400.00,
         discount: 0,
         image: "/assets/images/Chicken/chiken - 4.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1041",
@@ -334,7 +334,7 @@ let itemArr = [
         price: 900.00,
         discount: 0,
         image: "/assets/images/Chicken/chiken - 5.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1042",
@@ -342,7 +342,7 @@ let itemArr = [
         price: 2100.00,
         discount: 0,
         image: "/assets/images/Chicken/chiken - 6.jpg",
-        quantity:9
+        quantity: 9
     },
     // Beverages
     {
@@ -351,7 +351,7 @@ let itemArr = [
         price: 990.00,
         discount: 5,
         image: "/assets/images/Beverages/Beverage - 1.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1044",
@@ -359,7 +359,7 @@ let itemArr = [
         price: 1230.00,
         discount: 0,
         image: "/assets/images/Beverages/Beverage - 2.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1045",
@@ -367,7 +367,7 @@ let itemArr = [
         price: 1500.00,
         discount: 3,
         image: "/assets/images/Beverages/Beverage - 3.jpg",
-        quantity:9
+        quantity: 9
     },
     {
         itemCode: "B1046",
@@ -375,7 +375,7 @@ let itemArr = [
         price: 850.00,
         discount: 7,
         image: "/assets/images/Beverages/Beverage - 4.jpg",
-        quantity:9
+        quantity: 9
     }
 ];
 
@@ -795,7 +795,7 @@ function loadInventoryTable() {
 
 // Update statistics
 function updateStats() {
-     if (!Array.isArray(itemArr)) {
+    if (!Array.isArray(itemArr)) {
         console.error("itemArr is not defined or not an array");
         return;
     }
