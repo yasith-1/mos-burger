@@ -8,8 +8,6 @@
   <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
   <title>MOS Burger - Customer Management</title>
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
   <!-- Bootstrap CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons -->
@@ -20,8 +18,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
-    <!-- CSS -->
-     <link rel="stylesheet" href="assets/css/customerManagement.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/customerManagement.css">
 
 </head>
 
@@ -47,7 +45,7 @@
             <a class="nav-link fw-semibold text-dark px-3" href="home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold text-warning px-3" href="customerManagement.html">Customers</a>
+            <a class="nav-link fw-semibold text-dark px-3" href="customerManagement.html">Customers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-semibold text-dark px-3" href="placeOrder.html">Orders</a>
@@ -59,7 +57,7 @@
 
         <!-- User Actions -->
         <div class="d-flex gap-2">
-          <button class="btn btn-outline-warning rounded-pill px-4" onclick="window.location.href='index.html'">
+          <button class="btn btn-outline-danger rounded-pill px-4" onclick="window.location.href='index.html'">
             <i class="bi bi-box-arrow-left me-1"></i>Logout
           </button>
         </div>
@@ -68,21 +66,14 @@
   </nav>
 
   <!-- Header Section -->
-  <section class="header-gradient text-white py-5 mt-5">
+  <section class="header-gradient text-white py-3" style="margin-top: 71px;">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row justify-content-center">
         <div class="col-lg-8">
-          <h1 class="display-5 fw-bold mb-3">
+          <h1 class="fs-2 fw-bold mb-3 text-center">
             <i class="bi bi-people-fill me-3"></i>
             Customer Management
           </h1>
-          <p class="lead mb-0">Manage customer information, add new customers, and maintain your customer database with
-            ease.</p>
-        </div>
-        <div class="col-lg-4 text-lg-end">
-          <div class="float-animation">
-            <i class="bi bi-person-badge display-1 opacity-50"></i>
-          </div>
         </div>
       </div>
     </div>
