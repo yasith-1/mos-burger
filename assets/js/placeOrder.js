@@ -378,6 +378,18 @@ function locadAllItems() {
     const itemCards = document.getElementById('itemCards');
     let setBody = "";
 
+    // If item array empty then display this design
+    if (itemArr.length === 0) {
+        let emptyItemView = `<div class="d-flex flex-column align-items-center justify-content-center py-5 text-center text-light">
+                            <i class="bi bi-box-seam fs-1 text-light mb-3"></i>
+                            <h5>No Available Items</h5>
+                            <p class="mb-0">Please add new items to view them here.</p>
+                            </div>`;
+                        
+        itemCards.innerHTML = emptyItemView;
+        return;
+    }
+
     itemArr.forEach(item => {
         const discountedPrice = item.price - (item.price * item.discount / 100);
 
@@ -437,6 +449,18 @@ function loadItems(category) {
         btn.classList.remove('active');
     });
     event.target.classList.add('active');
+
+    // If item array empty then display this design
+    if (itemArr.length === 0) {
+        let emptyItemView = `<div class="d-flex flex-column align-items-center justify-content-center py-5 text-center text-light">
+                            <i class="bi bi-box-seam fs-1 text-light mb-3"></i>
+                            <h5>No Available Items</h5>
+                            <p class="mb-0">Please add new items to view them here.</p>
+                            </div>`;
+                        
+        itemCards.innerHTML = emptyItemView;
+        return;
+    }
 
     const filteredItems = category === 'All' ? itemArr : itemArr.filter(item => item.category === category);
 
