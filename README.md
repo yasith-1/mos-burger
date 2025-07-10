@@ -73,6 +73,45 @@ mos-burger/
 └── 🏪 storeManagement.html        # Store management page
 ```
 
+## 📸 Images
+
+<details>
+<summary>🖼️ Login</summary>
+  
+<img width="1920" height="909" alt="image" src="https://github.com/user-attachments/assets/4c53e9ef-f35b-4ea2-98b4-9eb2bdb9b26d" />
+
+</details>
+
+
+<details>
+<summary>🖼️ Home</summary>
+  
+<img width="1920" height="841" alt="image" src="https://github.com/user-attachments/assets/6f26a515-ea5a-44aa-a6ee-15fe514280a2" />
+
+</details>
+
+<details>
+<summary>🖼️ Place Order</summary>
+  
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/0d252231-3d64-4d2c-9d02-5ed4a3e366c1" />
+
+</details>
+
+<details>
+<summary>🖼️ Customer Management</summary>
+  
+<img width="1920" height="905" alt="image" src="https://github.com/user-attachments/assets/704f5506-a254-4bc9-a356-e6cc7fe2189c" />
+
+</details>
+
+<details>
+<summary>🖼️ Store Management</summary>
+  
+<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/02e0c944-1f54-4113-a046-0c8e4e9adb7b" />
+
+</details>
+
+---
 ## 🎯 Pages Overview
 
 ### 📍 Index Page (`index.html`)
