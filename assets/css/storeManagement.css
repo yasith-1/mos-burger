@@ -1,6 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url("/assets/images/homeBackground.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
   min-height: 100vh;
 }
 
@@ -33,7 +39,7 @@ body {
 
 .section-btn:hover,
 .section-btn.active {
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, rgb(102, 126, 234), #764ba2);
   color: white !important;
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
@@ -54,7 +60,7 @@ body {
 
 /* Stats card styles */
 .stats-card {
-  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  background: linear-gradient(45deg, rgb(166, 179, 236), #d8c0f0);
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }

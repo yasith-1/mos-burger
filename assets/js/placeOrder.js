@@ -345,7 +345,7 @@ let itemArr = [
         itemNAme: "Pepsi (330ml)",
         price: 990.00,
         discount: 5,
-        image: "Images/Items Images/Beverages/Pepsi.jpg",
+        image: "/assets/images/Beverages/Beverage - 1.jpg",
         category: "Beverages"
     },
     {
@@ -353,7 +353,7 @@ let itemArr = [
         itemNAme: "Coca-Cola (330ml)",
         price: 1230.00,
         discount: 0,
-        image: "Images/Items Images/Beverages/Coke.jpg",
+        image: "/assets/images/Beverages/Beverage - 2.jpg",
         category: "Beverages"
     },
     {
@@ -361,7 +361,7 @@ let itemArr = [
         itemNAme: "Sprite (330ml)",
         price: 1500.00,
         discount: 3,
-        image: "Images/Items Images/Beverages/Sprite.jpg",
+        image: "/assets/images/Beverages/Beverage - 3.jpg",
         category: "Beverages"
     },
     {
@@ -369,7 +369,7 @@ let itemArr = [
         itemNAme: "Mirinda (330ml)",
         price: 850.00,
         discount: 7,
-        image: "Images/Items Images/Beverages/Mirinda.jpg",
+        image: "/assets/images/Beverages/Beverage - 4.jpg",
         category: "Beverages"
     }
 ];

@@ -9,98 +9,112 @@ let itemArr = [
         itemNAme: "Classic Burger (Large)",
         price: 1500.00,
         discount: 15,
-        image: "/assets/images/burger/Burger - 1.jpg"
+        image: "/assets/images/burger/Burger - 1.jpg",
+        quantity:16
     },
     {
         itemCode: "B1002",
         itemNAme: "Classic Burger (Regular)",
         price: 1600.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 2.jpg"
+        image: "/assets/images/burger/Burger - 2.jpg",
+        quantity:5
     },
     {
         itemCode: "B1003",
         itemNAme: "Turkey Burger",
         price: 1400.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 3.jpg"
+        image: "/assets/images/burger/Burger - 3.jpg",
+        quantity:10
     },
     {
         itemCode: "B1004",
         itemNAme: "Chicken Burger (Large)",
         price: 800.00,
         discount: 20,
-        image: "/assets/images/burger/Burger - 4.jpg"
+        image: "/assets/images/burger/Burger - 4.jpg",
+        quantity:9
     },
     {
         itemCode: "B1005",
         itemNAme: "Chicken Burger (Regular)",
         price: 1000.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 5.jpg"
+        image: "/assets/images/burger/Burger - 5.jpg",
+        quantity:9
     },
     {
         itemCode: "B1006",
         itemNAme: "Cheese Burger (Large)",
         price: 750.00,
         discount: 0,
-        image:"/assets/images/burger/Burger - 6.jpg"
+        image:"/assets/images/burger/Burger - 6.jpg",
+        quantity:9
     },
     {
         itemCode: "B1007",
         itemNAme: "Classic Burger (Large)",
         price: 600.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 7.jpg"
+        image: "/assets/images/burger/Burger - 7.jpg",
+        quantity:9
     },
     {
         itemCode: "B1008",
         itemNAme: "Bacon Burger",
         price: 650.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 8.jpg"
+        image: "/assets/images/burger/Burger - 8.jpg",
+        quantity:9
     },
     {
         itemCode: "B1009",
         itemNAme: "Shawarma Burger",
         price: 800.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 9.jpg"
+        image: "/assets/images/burger/Burger - 9.jpg",
+        quantity:9
     },
     {
         itemCode: "B1010",
         itemNAme: "Olive Burger",
         price: 1800.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 10.jpg"
+        image: "/assets/images/burger/Burger - 10.jpg",
+        quantity:9
     },
     {
         itemCode: "B1011",
         itemNAme: "Double- Cheese Burger",
         price: 1250.00,
         discount: 20,
-        image: "/assets/images/burger/Burger - 11.jpg"
+        image: "/assets/images/burger/Burger - 11.jpg",
+        quantity:9
     },
     {
         itemCode: "B1012",
         itemNAme: "Crispy Chicken Burger (Regular)",
         price: 1200.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 12.jpg"
+        image: "/assets/images/burger/Burger - 12.jpg",
+        quantity:9
     },
     {
         itemCode: "B1013",
         itemNAme: "Crispy Chicken Burger (Large)",
         price: 1600.00,
         discount: 10,
-        image: "/assets/images/burger/Burger - 13.jpg"
+        image: "/assets/images/burger/Burger - 13.jpg",
+        quantity:9
     },
     {
         itemCode: "B1014",
         itemNAme: "Paneer Burger",
         price: 900.00,
         discount: 0,
-        image: "/assets/images/burger/Burger - 14.jpg"
+        image: "/assets/images/burger/Burger - 14.jpg",
+        quantity:9
     },
     // Submarines
     {
@@ -108,63 +122,72 @@ let itemArr = [
         itemNAme: "Crispy Chicken Submarine (Large)",
         price: 2000.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 1.jpg"
+        image: "/assets/images/submarine/Submarine - 1.jpg",
+        quantity:9
     },
     {
         itemCode: "B1016",
         itemNAme: "Crispy Chicken Submarine (Regular)",
         price: 1500.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 2.jpg"
+        image: "/assets/images/submarine/Submarine - 2.jpg",
+        quantity:9
     },
     {
         itemCode: "B1017",
         itemNAme: "Chicken Submarine (Large)",
         price: 1800.00,
         discount: 3,
-        image: "/assets/images/submarine/Submarine - 3.jpg"
+        image: "/assets/images/submarine/Submarine - 3.jpg",
+        quantity:9
     },
     {
         itemCode: "B1018",
         itemNAme: "Chicken Submarine (Regular)",
         price: 1400.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 4.jpg"
+        image: "/assets/images/submarine/Submarine - 4.jpg",
+        quantity:9
     },
     {
         itemCode: "B1019",
         itemNAme: "Grinder Submarine",
         price: 2300.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 5.jpg"
+        image: "/assets/images/submarine/Submarine - 5.jpg",
+        quantity:9
     },
     {
         itemCode: "B1020",
         itemNAme: "Cheese Submarine",
         price: 2200.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 6.jpg"
+        image: "/assets/images/submarine/Submarine - 6.jpg",
+        quantity:9
     },
     {
         itemCode: "B1021",
         itemNAme: "Double Cheese n Chicken Submarine",
         price: 1900.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 7.jpg"
+        image: "/assets/images/submarine/Submarine - 7.jpg",
+        quantity:9
     },
     {
         itemCode: "B1022",
         itemNAme: "Special Horgie Submarine",
         price: 2800.00,
         discount: 0,
-        image:"/assets/images/submarine/Submarine - 8.jpg"
+        image:"/assets/images/submarine/Submarine - 8.jpg",
+        quantity:9
     },
     {
         itemCode: "B1023",
         itemNAme: "MOS Special Submarine",
         price: 3000.00,
         discount: 0,
-        image: "/assets/images/submarine/Submarine - 9.jpg"
+        image: "/assets/images/submarine/Submarine - 9.jpg",
+        quantity:9
     },
     // Fries
     {
@@ -172,42 +195,48 @@ let itemArr = [
         itemNAme: "Steak Fries (Large)",
         price: 1200.00,
         discount: 0,
-        image: "/assets/images/Fries/Fries - 1.jpg"
+        image: "/assets/images/Fries/Fries - 1.jpg",
+        quantity:9
     },
     {
         itemCode: "B1025",
         itemNAme: "Steak Fries (Medium)",
         price: 600.00,
         discount: 0,
-        image: "/assets/images/Fries/Fries - 2.jpg"
+        image: "/assets/images/Fries/Fries - 2.jpg",
+        quantity:9
     },
     {
         itemCode: "B1026",
         itemNAme: "French Fries (Large)",
         price: 800.00,
         discount: 0,
-        image: "/assets/images/Fries/Fries - 3.jpg"
+        image: "/assets/images/Fries/Fries - 3.jpg",
+        quantity:9
     },
     {
         itemCode: "B1027",
         itemNAme: "French Fries (Medium)",
         price: 650.00,
         discount: 0,
-        image: "/assets/images/Fries/Fries - 4.jpg"
+        image: "/assets/images/Fries/Fries - 4.jpg",
+        quantity:9
     },
     {
         itemCode: "B1028",
         itemNAme: "French Fries (Small)",
         price: 450.00,
         discount: 0,
-        image: "/assets/images/Fries/Fries - 5.jpg"
+        image: "/assets/images/Fries/Fries - 5.jpg",
+        quantity:9
     },
     {
         itemCode: "B1029",
         itemNAme: "Sweet Potato Fries (Large)",
         price: 600.00,
         discount: 0,
-        image: "/assets/images/Fries/Fries - 6.jpg"
+        image: "/assets/images/Fries/Fries - 6.jpg",
+        quantity:9
     },
     // Pasta
     {
@@ -215,49 +244,56 @@ let itemArr = [
         itemNAme: "Chicken n Cheese Pasta",
         price: 1600.00,
         discount: 15,
-        image: "/assets/images/Pasta/pasta - 1.jpg"
+        image: "/assets/images/Pasta/pasta - 1.jpg",
+        quantity:9
     },
     {
         itemCode: "B1031",
         itemNAme: "Chicken Penne Pasta",
         price: 1700.00,
         discount: 0,
-        image: "/assets/images/Pasta/pasta - 2.jpg"
+        image: "/assets/images/Pasta/pasta - 2.jpg",
+        quantity:9
     },
     {
         itemCode: "B1032",
         itemNAme: "Ground Turkey Pasta Bake",
         price: 2900.00,
         discount: 10,
-        image: "/assets/images/Pasta/pasta - 3.jpg"
+        image: "/assets/images/Pasta/pasta - 3.jpg",
+        quantity:9
     },
     {
         itemCode: "B1033",
         itemNAme: "Creamy Shrimp Pasta",
         price: 2000.00,
         discount: 0,
-        image: "/assets/images/Pasta/pasta - 4.jpg"
+        image: "/assets/images/Pasta/pasta - 4.jpg",
+        quantity:9
     },
     {
         itemCode: "B1034",
         itemNAme: "Lemon Butter Pasta",
         price: 1950.00,
         discount: 0,
-        image: "/assets/images/Pasta/pasta - 5.jpg"
+        image: "/assets/images/Pasta/pasta - 5.jpg",
+        quantity:9
     },
     {
         itemCode: "B1035",
         itemNAme: "Tagliatelle Pasta",
         price: 2400.00,
         discount: 1,
-        image: "/assets/images/Pasta/pasta - 6.jpg"
+        image: "/assets/images/Pasta/pasta - 6.jpg",
+        quantity:9
     },
     {
         itemCode: "B1036",
         itemNAme: "Baked Ravioli",
         price: 2000.00,
         discount: 1,
-        image: "/assets/images/Pasta/pasta - 7.jpg"
+        image: "/assets/images/Pasta/pasta - 7.jpg",
+        quantity:9
     },
     // Chicken
     {
@@ -265,42 +301,48 @@ let itemArr = [
         itemNAme: "Fried Chicken (Small)",
         price: 1200.00,
         discount: 0,
-        image: "/assets/images/Chicken/chiken - 1.jpg"
+        image: "/assets/images/Chicken/chiken - 1.jpg",
+        quantity:9
     },
     {
         itemCode: "B1038",
         itemNAme: "Fried Chicken (Regular)",
         price: 2300.00,
         discount: 10,
-        image: "/assets/images/Chicken/chiken - 2.jpg"
+        image: "/assets/images/Chicken/chiken - 2.jpg",
+        quantity:9
     },
     {
         itemCode: "B1039",
         itemNAme: "Fried Chicken (Large)",
         price: 3100.00,
         discount: 5,
-        image: "/assets/images/Chicken/chiken - 3.jpg"
+        image: "/assets/images/Chicken/chiken - 3.jpg",
+        quantity:9
     },
     {
         itemCode: "B1040",
         itemNAme: "Hot Wings (Large)",
         price: 2400.00,
         discount: 0,
-        image: "/assets/images/Chicken/chiken - 4.jpg"
+        image: "/assets/images/Chicken/chiken - 4.jpg",
+        quantity:9
     },
     {
         itemCode: "B1041",
         itemNAme: "Devilled Chicken (Large)",
         price: 900.00,
         discount: 0,
-        image: "/assets/images/Chicken/chiken - 5.jpg"
+        image: "/assets/images/Chicken/chiken - 5.jpg",
+        quantity:9
     },
     {
         itemCode: "B1042",
         itemNAme: "BBQ Chicken (Regular)",
         price: 2100.00,
         discount: 0,
-        image: "/assets/images/Chicken/chiken - 6.jpg"
+        image: "/assets/images/Chicken/chiken - 6.jpg",
+        quantity:9
     },
     // Beverages
     {
@@ -308,28 +350,32 @@ let itemArr = [
         itemNAme: "Pepsi (330ml)",
         price: 990.00,
         discount: 5,
-        image: "Images/Items Images/Beverages/Pepsi.jpg"
+        image: "/assets/images/Beverages/Beverage - 1.jpg",
+        quantity:9
     },
     {
         itemCode: "B1044",
         itemNAme: "Coca-Cola (330ml)",
         price: 1230.00,
         discount: 0,
-        image: "Images/Items Images/Beverages/Coke.jpg"
+        image: "/assets/images/Beverages/Beverage - 2.jpg",
+        quantity:9
     },
     {
         itemCode: "B1045",
         itemNAme: "Sprite (330ml)",
         price: 1500.00,
         discount: 3,
-        image: "Images/Items Images/Beverages/Sprite.jpg"
+        image: "/assets/images/Beverages/Beverage - 3.jpg",
+        quantity:9
     },
     {
         itemCode: "B1046",
         itemNAme: "Mirinda (330ml)",
         price: 850.00,
         discount: 7,
-        image: "Images/Items Images/Beverages/Mirinda.jpg"
+        image: "/assets/images/Beverages/Beverage - 4.jpg",
+        quantity:9
     }
 ];
 
@@ -749,10 +795,17 @@ function loadInventoryTable() {
 
 // Update statistics
 function updateStats() {
+     if (!Array.isArray(itemArr)) {
+        console.error("itemArr is not defined or not an array");
+        return;
+    }
+
     const totalItems = itemArr.length;
     const totalStock = itemArr.reduce((sum, item) => sum + item.quantity, 0);
     const lowStock = itemArr.filter(item => item.quantity < 5).length;
     const totalValue = itemArr.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+
+    console.log({ totalItems, totalStock, lowStock, totalValue });
 
     document.getElementById('totalItems').textContent = totalItems;
     document.getElementById('totalStock').textContent = totalStock;
