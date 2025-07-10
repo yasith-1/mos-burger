@@ -60,7 +60,7 @@ body {
 
 /* Stats card styles */
 .stats-card {
-  background: linear-gradient(45deg, rgb(166, 179, 236), #d8c0f0);
+  background: linear-gradient(45deg, rgb(192, 199, 233), #e1d2f0);
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
