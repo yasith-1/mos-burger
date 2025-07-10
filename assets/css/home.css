@@ -31,7 +31,7 @@ body {
 }
 
 .float-animation {
-  animation: float 3s ease-in-out infinite;
+  /* animation: float 3s ease-in-out infinite; */
 }
 
 /* Gradient button */
