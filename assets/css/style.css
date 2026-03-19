@@ -1,7 +1,7 @@
 /* Custom gradient background */
 .gradient-bg {
   /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  background-image: url("/assets/images/homeBackground.jpg");
+  background-image: url("../images/homeBackground.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
